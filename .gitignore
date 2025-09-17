@@ -1,3 +1,9 @@
+# =============================================
+# .gitignore для Spring Boot + Maven + Multi-IDE
+# Сгенерирован автоматически + дополнен вручную
+# Игнорирует: билды, настройки IDE, логи, секреты
+# =============================================
+
 HELP.md
 target/
 .mvn/wrapper/maven-wrapper.jar
@@ -31,3 +37,17 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Logs ###
+*.log
+logs/
+
+### macOS ###
+.DS_Store
+
+### Secrets & Local Configs ###
+application-local.properties
+.env
+.env.local
+*.secret
+*.key
